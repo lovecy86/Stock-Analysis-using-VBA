@@ -1,4 +1,6 @@
-# **Quarterly Stock Analysis VBA Script**
+# **Quarterly Stock Analysis using VBA Script**
+
+[Stock Analysis Script](https://github.com/lovecy86/Stock-Analysis-using-VBA/blob/main/FinalChallengeCode.vbs)
 
 ## **Overview**
 This VBA script analyzes stock market data across multiple worksheets, each representing a quarter. It processes stock data to calculate key metrics for each ticker symbol, applies conditional formatting, and identifies stocks with the greatest percentage increase, decrease, and total volume. The script is designed to automate repetitive tasks, making it efficient for large datasets like the alphabetical_testing.xlsx file.
@@ -18,10 +20,10 @@ This VBA script analyzes stock market data across multiple worksheets, each repr
 * Basic knowledge of Excel and VBA to install and run the script.
 
 ## **Installation**
-    * Open Excel and press Alt + F11 to access the VBA Editor.          
-    * In the VBA Editor, go to Insert > Module to create a new module.
-    * Copy and paste the contents of Stock_Analysis.vbs into the module.
-    * Save the Excel file as a macro-enabled workbook (.xlsm).
+* Open Excel and press Alt + F11 to access the VBA Editor.          
+* In the VBA Editor, go to Insert > Module to create a new module.
+* Copy and paste the contents of Stock_Analysis.vbs into the module.
+* Save the Excel file as a macro-enabled workbook (.xlsm).
 
 ## **VBA Scriptng**
 * 1. Created a script that loops through all the stocks for each quarter and outputs the following information:
@@ -31,8 +33,10 @@ This VBA script analyzes stock market data across multiple worksheets, each repr
     * The total stock volume of the stock. 
 * 2. Added functionality to the script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume"
 * 3. Applied conditional formatting:
-    * Green for positive quarterly changes
+    * Green for positive quarterly changes1
     * Red for negative quarterly changes
+
+![resultscreen](ResultScreenshot.png)
 
 ## **License**
 This project is licensed under the MIT License.
