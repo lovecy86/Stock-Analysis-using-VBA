@@ -18,6 +18,9 @@ This VBA script analyzes stock market data across multiple worksheets, each repr
 * Microsoft Excel with VBA enabled.
 * The alphabetical_testing.xlsx dataset for testing.
 * Basic knowledge of Excel and VBA to install and run the script.
+  
+## **Technology Used**
+Python
 
 ## **Installation**
 * Open Excel and press Alt + F11 to access the VBA Editor.          
