@@ -6,13 +6,13 @@
 This VBA script analyzes stock market data across multiple worksheets, each representing a quarter. It processes stock data to calculate key metrics for each ticker symbol, applies conditional formatting, and identifies stocks with the greatest percentage increase, decrease, and total volume. The script is designed to automate repetitive tasks, making it efficient for large datasets like the alphabetical_testing.xlsx file.
 
 ## **Features**
-**Ticker Symbol:** Extracts unique ticker symbols.
-**Quarterly Change:** Calculates the difference between the opening price at the start of the quarter and the closing price at the end.
-**Percentage Change:** Computes the percentage change based on the quarterly change.
-**Total Stock Volume:** Sums the trading volume for each ticker.
-**Conditional Formatting:** Highlights positive changes in green and negative changes in red.
-**Greatest Metrics:** Identifies the stocks with the greatest percentage increase, decrease, and total volume.
-**Multi-Sheet Processing:** Runs on all worksheets in the workbook with a single execution.
+  **Ticker Symbol:** Extracts unique ticker symbols.
+  **Quarterly Change:** Calculates the difference between the opening price at the start of the quarter and the closing price at the end.
+  **Percentage Change:** Computes the percentage change based on the quarterly change.
+  **Total Stock Volume:** Sums the trading volume for each ticker.
+  **Conditional Formatting:** Highlights positive changes in green and negative changes in red.
+  **Greatest Metrics:** Identifies the stocks with the greatest percentage increase, decrease, and total volume.
+  **Multi-Sheet Processing:** Runs on all worksheets in the workbook with a single execution.
 
 ## **Prerequisites**
 * Microsoft Excel with VBA enabled.
